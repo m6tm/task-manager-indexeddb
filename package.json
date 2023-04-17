@@ -1,0 +1,23 @@
+{
+  "name": "local-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "npx mix watch",
+    "watch-poll": "npx mix watch -- --watch-options-poll=1000",
+    "hot": "npx mix watch --hot",
+    "prod": "npx mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.62.0",
+    "sass-loader": "12.1.0"
+  },
+  "dependencies": {
+    "dexie": "^3.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}

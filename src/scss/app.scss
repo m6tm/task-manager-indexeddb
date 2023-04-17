@@ -1,0 +1,12 @@
+body {
+        margin: 0px;
+}
+
+.list-group li {
+        cursor: pointer;
+        transition: .2s ease;
+}
+
+.list-group li:hover {
+        background-color: rgb(245, 245, 245);
+}
